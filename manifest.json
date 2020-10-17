@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "extensioname",
+    "description": "extensiondescription",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://imgur.com/*",     "https://play.mirageonlineclassic.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
